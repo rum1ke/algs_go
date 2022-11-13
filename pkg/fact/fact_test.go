@@ -16,7 +16,7 @@ func TestFact(t *testing.T) {
 		res := Fact(test.x)
 
 		if res != test.must {
-			t.Error("wrong fact result. X, Res, Mest:", test.x, res, test.must)
+			t.Error("Wrong fact result. X, Res, Mest:", test.x, res, test.must)
 		}
 	}
 }
